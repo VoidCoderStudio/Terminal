@@ -4,7 +4,7 @@ import sys
 import readline
 
 def main():
-    root_dir = "/home/hamza/straw-distro"
+    root_dir = "THE VIRTUAL FILESYSTEM HERE"
     straw_bin = os.path.join(root_dir, "bin")
     straw_usr_bin = os.path.join(root_dir, "usr", "bin")
     
