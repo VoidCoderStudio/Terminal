@@ -6,7 +6,7 @@ import glob
 import tempfile
 
 REPO_URL = "https://VoidCoderStudio.github.io/straw-root/stable/aarch64/"
-DEFAULT_ROOT = "/home/hamza/straw-distro/"
+DEFAULT_ROOT = "PUT THE VIRTUAL FILESYSTEM HERE"
 
 def extract_ar_pure_python(ar_path, extract_to):
     with open(ar_path, "rb") as f:
